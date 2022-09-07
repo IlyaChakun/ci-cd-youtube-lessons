@@ -1,0 +1,15 @@
+{
+    "RegionId": "eu-central-1",
+    "TemplateUrl": "https://test-bucket-for-gitlab-with-cloudformation.s3.eu-central-1.amazonaws.com/network.yaml",
+    "StackName": "teststack",
+    "VpcCIDR": "10.192.0.0/16",
+    "PublicSubnet1CIDR": "10.192.10.0/24",
+    "PublicSubnet2CIDR": "10.192.11.0/24",
+    "PublicSubnet3CIDR": "10.192.12.0/24",
+    "PrivateSubnet1CIDR": "10.192.20.0/24",
+    "PrivateSubnet2CIDR": "10.192.22.0/24",
+    "PrivateSubnet3CIDR": "10.192.24.0/24",
+    "DatabaseSubnet1CIDR": "10.192.21.0/24",
+    "DatabaseSubnet2CIDR": "10.192.23.0/24",
+    "DatabaseSubnet3CIDR": "10.192.25.0/24"
+}
